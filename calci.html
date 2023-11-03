@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Arathi Calci</title>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header">
+            <h1> Calculator !</h1>
+        </div>
+    </header>
+    
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div>
+            <button class="btn" onclick="Display('7')">7</button>
+            <button class="btn" onclick="Display('8')">8</button>
+            <button class="btn" onclick="Display('9')">9</button>
+            <button class="btn operator" onclick="clearDisplay()">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="Display('4')">4</button>
+            <button class="btn" onclick="Display('5')">5</button>
+            <button class="btn" onclick="Display('6')">6</button>
+            <button class="btn operator" onclick="Display('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="Display('1')">1</button>
+            <button class="btn" onclick="Display('2')">2</button>
+            <button class="btn" onclick="Display('3')">3</button>
+            <button class="btn operator" onclick="Display('*')">*</button>
+        </div>
+        <div>
+            <button class="btn" onclick="Display('.')">.</button>
+            <button class="btn" onclick="Display('0')">0</button>
+            <button class="btn operator" onclick="Display('+')">+</button>
+            <button class="btn operator" onclick="Display('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="Display('un-defineded')">M+</button>
+            <button class="btn" id="cl" onclick="clear1()"><--</button>
+            <button class="btn operator" onclick="Display('%')">%</button>
+            <button class="btn operator" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+    <footer>
+        <div class="txt">
+            <p>Copyright reserved &copy; to Arathi</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

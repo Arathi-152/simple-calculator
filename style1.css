@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Young+Serif&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(C:/Users/2003a/Desktop/web/calciii.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(8px) grayscale(60%);
+}
+
+header {
+    background:#ff9d05cc;
+    padding: 10px 0;
+    text-align: center;
+    width: 100vw;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+    color: #323232;
+}
+
+.calculator {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 25vh auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(28, 29, 29) 30%, rgb(57, 58, 58) 50%, rgb(22, 22, 24) 100%);
+    border-radius: 10px;
+    border: 3px solid #bf63f278;
+}
+
+.calculator input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: 1px solid whitesmoke;
+    text-align: right;
+    background-color: #444;
+    color: white;
+}
+
+.calculator .btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: neonyellow;
+    color: black;
+}
+
+.calculator .btn.operator {
+    background-color: #ff9d05cc;
+    color: #fff;
+}
+
+.calculator .btn.operator:hover {
+    background-color: #ff9b05;
+
+}
+
+footer {
+    display: flex;
+    background-color: #333;
+    height: 20vh;
+    width: 100vw;
+}
+
+.txt {
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+}
